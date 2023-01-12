@@ -9,3 +9,5 @@
 - main: Ambiente configurado para o projeto
 
 - modelos: Arquivos com criação de modelos da tabela Pessoas pelo sequelize. Também foi feita uma migração de database. Os comentários possuem o passo a passo e alguns comandos necessários pelo sequelize.
+
+- populandoBanco: Arquivos contendo informações de como popular um banco de dados usando sequelize. Além disso, possui comentário de como desfazer operações de migração e seeds.
