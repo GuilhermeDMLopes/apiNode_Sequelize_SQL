@@ -7,3 +7,5 @@
 ## Separado por branches:
 
 - main: Ambiente configurado para o projeto
+
+- modelos: Arquivos com criação de modelos da tabela Pessoas pelo sequelize. Também foi feita uma migração de database. Os comentários possuem o passo a passo e alguns comandos necessários pelo sequelize.
