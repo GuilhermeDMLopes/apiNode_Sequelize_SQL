@@ -15,3 +15,5 @@
 - padraoMVC: Arquivos contendo padrão MVC para inserir rotas, controllers e models no projeto.
 
 - metodosCRUD: Arquivos realizando CRUD utilizando o sequelize
+
+- fazendoMaisRelacoes_Associacoes: Arquivos contendo descrição de como fazer as relações e associações entre tabelas, criação de chaves estrangeiras, etc.

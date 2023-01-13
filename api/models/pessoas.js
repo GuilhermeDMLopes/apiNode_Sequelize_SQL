@@ -7,7 +7,17 @@ module.exports = (sequelize, DataTypes) => {
     role: DataTypes.STRING
   }, {});
   Pessoas.associate = function(models) {
-    // associations can be defined here
+    // Conforme informações do diagrama no arquivo index.js do diretorio API
+    //Pessoas tem relação de um pra varios com Turmas e Matriculas
+    //Faz as associações
+    Pessoas.hasMany(models.Turmas, {
+      //Sequelize Vai criar no banco uma coluna PessoaID como FK. Para personalizar o nome, fazemos:
+      foreignKey: 'docente_id'
+    }) 
+    Pessoas.hasMany(models.Matriculas, {
+      //Sequelize Vai criar no banco uma coluna PessoaID como FK. Para personalizar o nome, fazemos:
+      foreignKey: 'estudante_id'
+    })
   };
   return Pessoas;
 };
