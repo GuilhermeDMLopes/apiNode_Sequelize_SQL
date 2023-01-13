@@ -1,5 +1,3 @@
-//routes/turmasRoute.js
-
 const { Router } = require('express')
 const TurmaController = require('../controllers/TurmaController')
 

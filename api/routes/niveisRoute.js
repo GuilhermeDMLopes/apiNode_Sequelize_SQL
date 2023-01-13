@@ -1,5 +1,3 @@
-//routes/niveisRoute.js
-
 const { Router } = require('express')
 const NivelController = require('../controllers/NivelController')
 

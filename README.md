@@ -21,3 +21,9 @@
 - inserindoDados: Arquivos populando as demais tabelas usando o seed.
 
 - criandoMaisControladores: Finalizando o CRUD e a API com comentarios sobre os controladores e rotas.
+
+- projetoFinalizado: projeto pronto sem descrições ou comentários.
+
+## Diagrama usado para o projeto
+
+![Diagrama](/home/guilherme/Documents/Alura/Formacao_Node_Express)
