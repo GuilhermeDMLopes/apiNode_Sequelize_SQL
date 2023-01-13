@@ -19,3 +19,5 @@
 - fazendoMaisRelacoes_Associacoes: Arquivos contendo descrição de como fazer as relações e associações entre tabelas, criação de chaves estrangeiras, etc.
 
 - inserindoDados: Arquivos populando as demais tabelas usando o seed.
+
+- criandoMaisControladores: Finalizando o CRUD e a API com comentarios sobre os controladores e rotas.

@@ -1,4 +1,4 @@
-//Continuação da branch fazendoMaisRelacoes_Associacoes. Vamos preencher o banco de dados.
+//Continuação da branch inserindoDados. Vamos criar os demais controladores para as tabelas.
 const express = require('express');
 const routes = require('./routes')
 
@@ -12,19 +12,14 @@ app.listen(port, () => console.log(`servidor está rodando na porta ${port}`))
 module.exports = app;
 
 /*
-Vamos popular as outras tabelas.
-Basta criar os arquivos em seeds seguindo o modelo demo-pessoas
+Matricula possui um caso especial para criar o controlador e rotas, porque?
+Os tipos de dados de matricula so faz sentido se estiver associadas a uma pessoa e/ou a uma turma
+Não existirá um arquivo em específico para matriculas, ela estara inserindo dentro dos controladores de pessoa
 
-npx sequelize-cli seed:generate --name demo-nivel
-npx sequelize-cli seed:generate --name demo-turmas
-npx sequelize-cli seed:generate --name demo-matriculas
-
-//Porque niveis primeiro? Porque as demais tabelas usam dados de niveis
-https://cursos.alura.com.br/course/orm-nodejs-api-sequelize-mysql/task/76906
-
-agora vamos popular o banco:
-
-npx sequelize-cli db:seed:all
-
-Falta apenas criar os controladores e as rotas antes de finalizar a API
+o body para criar matricula deve seguir:
+Criamos uma matricula para um estudante na turma 4. 
+{
+    "status": "confirmado",
+    "turma_id": 4
+}
 */
