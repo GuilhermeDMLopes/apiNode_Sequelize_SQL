@@ -13,3 +13,5 @@
 - populandoBanco: Arquivos contendo informações de como popular um banco de dados usando sequelize. Além disso, possui comentário de como desfazer operações de migração e seeds.
 
 - padraoMVC: Arquivos contendo padrão MVC para inserir rotas, controllers e models no projeto.
+
+- metodosCRUD: Arquivos realizando CRUD utilizando o sequelize

@@ -1,14 +1,16 @@
-//Arquivo com as rotas para o modelo Pessoas
-
-//Chamando Router, ferramenta do express
 const { Router } = require('express')
-//Importando o controller de pessoas
 const PessoaController = require('../controllers/PessoaController')
 
-//Iniciando router
 const router = Router()
 
-//Rota para chamar o metodo em pessoasController para pegar todas as pessoas
 router.get('/pessoas', PessoaController.pegaTodasAsPessoas)
+//adicionando rota para pegar por id
+router.get('/pessoas/:id', PessoaController.pegaUmaPessoa)
+//Adicionando rota para criar pessoa
+router.post('/pessoas', PessoaController.criaPessoa)
+//Adicionando rota para atualizar pessoa
+router.put('/pessoas/:id', PessoaController.atualizaPessoa)
+//Deletando pessoa
+router.delete('/pessoas/:id', PessoaController.deletaPessoa)
 
 module.exports = router
