@@ -26,4 +26,4 @@
 
 ## Diagrama usado para o projeto
 
-![Diagrama](/Diagrama/Diagrama%20Relacional%20-%20escola%20de%20ingl%C3%AAs(Curso%20Node%20Squelize).pdf)
+![Diagrama](/Diagrama/Diagrama.jpeg)
