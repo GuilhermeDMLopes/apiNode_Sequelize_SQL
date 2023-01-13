@@ -26,4 +26,4 @@
 
 ## Diagrama usado para o projeto
 
-![Diagrama](/Diagrama/Diagrama.jpg)
+![Diagrama](/Diagrama/diagrama.jpg)
