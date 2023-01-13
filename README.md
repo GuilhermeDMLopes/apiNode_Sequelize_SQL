@@ -17,3 +17,5 @@
 - metodosCRUD: Arquivos realizando CRUD utilizando o sequelize
 
 - fazendoMaisRelacoes_Associacoes: Arquivos contendo descrição de como fazer as relações e associações entre tabelas, criação de chaves estrangeiras, etc.
+
+- inserindoDados: Arquivos populando as demais tabelas usando o seed.
