@@ -2,8 +2,6 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    //Mesma ideia do arquivo de migração
-    //Aqui ele insere dados em lote (bulkInsert)
     return queryInterface.bulkInsert('Pessoas', [{
       nome: 'Ana Souza',
 			ativo: true,
@@ -57,8 +55,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    //Vai deletar em lotes
-    return queryInterface.bulkDelete('Pessoas', null, {});
-    
+    return queryInterface.bulkDelete('Pessoas', null, {});    
   }
 };
